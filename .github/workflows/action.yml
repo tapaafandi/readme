@@ -28,15 +28,14 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # You'll need to setup a personal token in your secrets.
+          filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+          base: "header, repositories"
 
           # Options
           user: tapaafandi
           template: classic
-          base: header, activity
           config_timezone: Asia/Jakarta
           plugin_languages: yes
           plugin_posts: yes
