@@ -11,6 +11,12 @@ inputs:
     description: Optimize SVG image
     default: yes
     
+    # Coding habits plugin
+  # Search in your recent activity what've recently did and deduce facts/charts
+  plugin_habits:
+    description: Enable coding habits metrics
+    default: no
+    
 name: Metrics
 on:
   # Schedule updates
