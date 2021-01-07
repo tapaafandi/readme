@@ -1,4 +1,16 @@
 # Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
+inputs:
+  # Filepath of generated metrics (relative to repository root)
+  filename:
+    description: Path of SVG image output
+    default: github-metrics.svg
+
+  # Optimize SVG image with SVGO  (minify and remove useless attributes and spaces)
+  # Some templates may not support this option
+  optimize:
+    description: Optimize SVG image
+    default: yes
+    
 name: Metrics
 on:
   # Schedule updates
