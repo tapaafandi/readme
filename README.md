@@ -1,1 +1,1 @@
-![Metrics](https://metrics.lecoq.io/tapaafandi?template=classic&config.timezone=Asia%2FJakarta)
+![Metrics](https://metrics.lecoq.io/tapaafandi?template=classic&base.community=0&base.repositories=0&base.metadata=0&languages=1&posts=1&stars=1&tweets=1&posts.limit=4&posts.source=dev.to&tweets.limit=2&stars.limit=4&config.timezone=Asia%2FJakarta)
