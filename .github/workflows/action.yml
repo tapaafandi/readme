@@ -46,3 +46,6 @@ jobs:
           plugin_stars_limit: 4
           plugin_tweets: yes
           plugin_tweets_limit: 2
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
